@@ -3,6 +3,8 @@
 
 Useful when you have a thing that only works with specific versions of a binary.
 
+See [GlyphSearch PR #25](https://github.com/thomaspark/glyphsearch/pull/25) for how this crawler was used.
+
 
 ## Usage
 
