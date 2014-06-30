@@ -14,5 +14,12 @@ $ node octicons.js path-to-glyphsearch
 
 If no argument is supplied, it'll output in current working directory as `icons-octicons.json`.
 
+## Example
+
+```sh
+$ node octicons.js ../glyphsearch/
+writing file to ../glyphsearch/data/icons-octicons.json
+```
+
 ## License
 MIT © [Matias Singers](http://mts.io)
