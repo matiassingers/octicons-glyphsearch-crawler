@@ -27,8 +27,23 @@ function handleItems(items){
     };
   });
 
-  return icons;
+  return {
+    icomoon: icons
+  };
+}
+
+function writeFile(icons){
+  var file = destination ? path.join(destination, 'data', 'icons-octicons.json') : path.join(__dirname, 'icons-octicons.json');
+  var data = JSON.stringify(icons, null, 2);
+
+  console.log('writing file to ' + file);
+
+  fs.writeFile(file, data, function(error){
+    if(error)
+      return console.log(error);
+  });
 }
 
 fetchWebpage()
-  .then(handleItems);
+  .then(handleItems)
+  .then(writeFile);
