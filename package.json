@@ -2,7 +2,7 @@
   "name": "octicons-glyphsearch-crawler",
   "version": "0.0.0",
   "description": "Crawls the GitHub Octicons website and formats it for GlyphSearch",
-  "main": "index.js",
+  "main": "octicons.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
