@@ -1,0 +1,30 @@
+{
+  "name": "octicons-glyphsearch-crawler",
+  "version": "0.0.0",
+  "description": "Crawls the GitHub Octicons website and formats it for GlyphSearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/octicons-glyphsearch-crawler"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io/)",
+  "keywords": [
+    "icons",
+    "glyphs",
+    "octicons",
+    "fonts"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/octicons-glyphsearch-crawler/issues"
+  },
+  "homepage": "https://github.com/matiassingers/octicons-glyphsearch-crawler",
+  "dependencies": {
+    "promise-request": "0.0.1",
+    "cheerio": "~0.15.0",
+    "lodash": "~2.4.1"
+  }
+}
