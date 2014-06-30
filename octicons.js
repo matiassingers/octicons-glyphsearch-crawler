@@ -28,7 +28,7 @@ function handleItems(items){
   });
 
   return {
-    icomoon: icons
+    octicons: icons
   };
 }
 
