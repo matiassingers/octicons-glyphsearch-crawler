@@ -6,6 +6,12 @@ var path = require('path');
 
 var destination = process.argv.slice(2)[0];
 
+function run(){
+  fetchWebpage()
+    .then(handleItems)
+    .then(writeFile);
+}
+
 function fetchWebpage(){
   var url = 'http://octicons.github.com/';
 
@@ -44,6 +50,11 @@ function writeFile(icons){
   });
 }
 
-fetchWebpage()
-  .then(handleItems)
-  .then(writeFile);
+if(require.main === module) {
+  run();
+}
+
+module.exports = {
+  run: run,
+  fetchWebpage: fetchWebpage
+};
