@@ -50,6 +50,8 @@ describe('run()', function(){
   });
 
   it('should write a file to __dirname when no directory is supplied', function(cb){
+    this.timeout(5000);
+
     if (fs.existsSync(path.join(__dirname, 'icons-octicons.json'))) {
       cb();
     }
