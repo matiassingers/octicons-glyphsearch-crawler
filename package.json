@@ -1,6 +1,6 @@
 {
   "name": "octicons-glyphsearch-crawler",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Crawls the GitHub Octicons website and formats it for GlyphSearch",
   "main": "octicons.js",
   "scripts": {
@@ -32,6 +32,6 @@
     "lodash": "~2.4.1"
   },
   "devDependencies": {
-    "mocha": "~1.20.1"
+    "mocha": "*"
   }
 }
