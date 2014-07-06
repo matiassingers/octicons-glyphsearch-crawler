@@ -9,34 +9,26 @@ var octicons = require('./octicons');
 describe('fetchWebpage()', function(){
   var fetch = octicons.fetchWebpage();
 
-  it('should return array of icons', function(cb){
+  it('should return array of icons', function(){
     fetch
       .then(function(icons){
-        if(icons.length){
-          cb();
-        }
+        assert(icons.length);
       });
   });
 
-  it('each icon should have data-name attr', function(cb){
+  it('each icon should have data-name attr', function(){
     fetch
       .then(function(icons){
         var element = $(icons[0]);
-
-        if(element.data('name')){
-          cb();
-        }
+        assert(element.data('name'));
       });
   });
 
-  it('each icon should have data-keywords attr', function(cb){
+  it('each icon should have data-keywords attr', function(){
     fetch
       .then(function(icons){
         var element = $(icons[0]);
-
-        if(element.data('keywords')){
-          cb();
-        }
+        assert(element.data('keywords'));
       });
   });
 });
