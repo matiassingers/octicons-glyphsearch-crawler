@@ -1,7 +1,5 @@
 # octicons-glyphsearch-crawler [![Build Status](https://api.shippable.com/projects/53b6a55e03574b62009906e0/badge/master)](https://www.shippable.com/projects/53b6a55e03574b62009906e0/builds/7)
-> Create JSON file of all [Octicons](http://octicons.github.com/) for [GlyphSearch](http://glyphsearch.com/)
-
-Useful when you have a thing that only works with specific versions of a binary.
+> Creates JSON file of all [Octicons](http://octicons.github.com/) for [GlyphSearch](http://glyphsearch.com/)
 
 See [GlyphSearch PR #25](https://github.com/thomaspark/glyphsearch/pull/25) for how this crawler was used.
 
