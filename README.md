@@ -1,4 +1,4 @@
-# octicons-glyphsearch-crawler [![Build Status](https://api.shippable.com/projects/53b6a55e03574b62009906e0/badge/master)](https://www.shippable.com/projects/53b6a55e03574b62009906e0/)
+# octicons-glyphsearch-crawler [![Build Status](http://img.shields.io/travis/matiassingers/octicons-glyphsearch-crawler.svg?style=flat-square)](https://travis-ci.org/matiassingers/octicons-glyphsearch-crawler) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/octicons-glyphsearch-crawler.svg?style=flat-square)](https://gemnasium.com/matiassingers/octicons-glyphsearch-crawler)
 > Creates JSON file of all [Octicons](http://octicons.github.com/) for [GlyphSearch](http://glyphsearch.com/)
 
 See [GlyphSearch PR #25](https://github.com/thomaspark/glyphsearch/pull/25) for how this crawler was used.
